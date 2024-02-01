@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Array and Array Methods in javascript</h1>
+
+      <!-- DECLARATION -->
+      <!-- There are two syntaxes for creating an empty array: -->
+      <!-- let arr = new Array();
+           let arr = []; -->
+      <script>
+        // let fruits = ["Apple", "Orange", "Plum"];
+        // alert(fruits[0]); // Apple
+        // alert(fruits[1]); // Orange
+        // alert(fruits[2]); // Plum
+
+        // let fruits = ["mango", "grapes", "apple"];
+        // alert(fruits.length);
+
+        // An array, just like an object, may end with a comma:
+        // let fruits = ["Apple", "Orange", "Plum"];
+
+        // let fruits = ["Apple", "Orange", "Plum"];
+        // alert(fruits[fruits.length - 1]); // Plum
+
+        // ARRAY METHODS -
+
+        // (1) Array.pop() -
+
+        // let fruits = ["apple", "mango", "banana"];
+        // alert(fruits.pop());
+        // document.write(fruits);
+
+        // (2) Array.push() -
+
+        // let fruits = ["apple", "mango", "banana"];
+        // alert(fruits.push("pineapple"));
+        // document.write(fruits);
+
+        // (3) Array.shift() -
+
+        // let fruits = ["apple", "mango", "banana"];
+        // alert(fruits.shift());
+        // document.write(fruits);
+
+        // (4) Array.unshift() -
+        // let fruits = ["mango", "banana"];
+        // alert(fruits.unshift("apple"));
+        // document.write(fruits);
+
+        // let fruits = ["Banana"];
+        // let arr = fruits; // copy by reference (two variables reference the same array)
+        // alert(arr === fruits); // true
+        // arr.push("Pear"); // modify the array by reference
+        // document.write(fruits); // Banana, Pear - 2 items now
+
+        // (5) Array.length() -
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // let size = fruits.length;
+        // document.write(size);
+
+        // (6) Array.toString() -
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // document.write(fruits.toString());
+
+        // (7) Array.at() -
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // let fruit = fruits.at(2);
+        // document.write(fruit);
+
+        // (8) Array.join() -
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // document.write(fruits.join(" , "));
+
+        // (9) delete() -
+        // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        // document.write("The first fruit is: " + fruits[0]);
+        // delete fruits[0];
+        // document.write("The fruit is: " + fruits);
+
+        // (10) Array.concat() -
+        // const myGirls = ["Cecilie", "Lone"];
+        // const myBoys = ["Emil", "Tobias", "Linus"];
+        // const myChildren = myGirls.concat(myBoys);
+        // document.write(myChildren);
+      </script>
+    </center>
+  </body>
+</html>
