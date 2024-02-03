@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Asynchronous Javascript</h1>
+
+      <!-- <h2>setTimeout() with a Callback</h2>
+
+      <p>Wait 3 seconds for this page to change.</p>
+
+      <h1 id="demo"></h1>
+
+      <h2>The sum of two Numbers :</h2>
+      <h2 id="sum"></h2>
+
+      <script>
+        setTimeout(myFunction, 3000);
+
+        function myFunction() {
+          document.getElementById("demo").innerHTML =
+            "Hello Asynchronous Javascript";
+        }
+
+        function sum(a, b) {
+          let c = a + b;
+          document.getElementById("sum").innerText = c;
+        }
+        sum(500, 400);
+      </script> -->
+
+      <h2>setInterval() with a Callback</h2>
+
+      <p>Using setInterval() to display the time every second.</p>
+
+      <h1 id="demo"></h1>
+
+      <script>
+        setInterval(getTime, 1000);
+
+        function getTime() {
+          let d = new Date();
+          document.getElementById("demo").innerHTML =
+            d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+        }
+      </script>
+    </center>
+  </body>
+</html>
